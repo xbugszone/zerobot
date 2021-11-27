@@ -18,7 +18,8 @@
     "require": {
         "php": "^8.0",
         "ccxt/ccxt": "^1.62",
-        "laravel-zero/framework": "^8.8"
+        "laravel-zero/framework": "^8.8",
+        "szymach/c-pchart": "^3.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.3",
