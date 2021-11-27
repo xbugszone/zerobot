@@ -16,9 +16,9 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "laravel-zero/framework": "^8.8",
-        "xbugszone/cryptotools": "dev-main"
+        "php": "^8.0",
+        "ccxt/ccxt": "^1.62",
+        "laravel-zero/framework": "^8.8"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.3",
@@ -26,7 +26,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Xbugszone\\Cryptotools\\": "packages/xbugszone/cryptotools/src"
+
         }
     },
     "autoload-dev": {
